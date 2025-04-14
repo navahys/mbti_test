@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI TEST</title>
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    <div id = "app">
+        <div id ="start-page">
+            <h1>MBTI TEST</h1>
+            <p>당신의 MBTI는?</p>
+            <button id="start-btn">검사 시작하기!!</button>
+        </div>
+        <div id ="question-page" class ="hidden">
+            <div id ="progress">질문 1 / 12</div>
+            <div id ="question">질문 내용</div>
+            <button class ="answer-btn">답변 1</button>
+            <button class ="answer-btn">답변 2</button>
+        </div>
+        <div id ="result-page" class ="hidden">
+            <h1>검사 결과</h1>
+            <div id ="result-type">결과 유형</div>
+            <div id ="result-desc">결과 설명</div>
+            <button id="restart-btn">다시 시작하기</button>
+        </div>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+</html>
